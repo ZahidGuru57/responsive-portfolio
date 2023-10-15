@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Project Name: Personal Portfolio Website -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio Website | Zahid </title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/icon.png" />
+    <!-- FontAwesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header section -->
+      <section id="header">
+        <div class="header-top">
+          <div class="logo">
+            <a href="#"><span>ZP</span>ortfolio</a>
+          </div>
+          <div class="nav-menu">
+            <ul id="sidemenu">
+              <li><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#service">Services</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#testimonial">Testimonials</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <i class="fa-solid fa-xmark" onclick="closeMenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openMenu()"></i>
+          </div>
+        </div>
+        <div class="header-bottom">
+          <div class="bottom-left">
+            <h1 class="name">Zahid <span>Ullah</span></h1>
+            <h3 class="profession">-Web And WordPress Developer</h3>
+            <p class="short-desc">
+              I have been working since 2020. I am proficient in UI design, web
+              development, Shopify & WordPress.
+            </p>
+            <a href="assets/Zahid_webDeveloper-CV- .pdf" target="_blank"
+              class="btn-cv" download><span><i
+                class="fa-solid fa-cloud-arrow-down"></i></span>Download CV</a>
+            <a href="https://github.com/ZahidGuru57" target="_blank"
+              class="btn-cv"><i
+                class="fa-brands fa-github"></i><span>GitHub</span></a>
+          </div>
+          <div class="bottom-right">
+            <a href="https://www.facebook.com/profile.php?id=100078712124105&mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://instagram.com/zahidullah1717?igshid=MzMyNGUyNmU2YQ==" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://x.com/ZahidUl83217604?t=6EGwclYFkWbfv2qXVNDxgQ&s=09" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.linkedin.com/in/zahid-ullah-developer/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+      </section>
+      
+      <!-- ------------------about started----------------- -->
+
+      <section id="about">
+        <div class="about-left">
+          <img src="assets/about1.jpeg" alt="user-sideimg" />
+        </div>
+        <div class="about-right">
+          <div class="section-title">
+            <h2 class="sub-title">About <span>Me</span></h2>
+            <h3 class="title">Web And WordPress Developer</h3>
+          </div>
+          <p class="desc">
+            I bring expertise in web design and development since 2020, with a strong emphasis on crafting user-centric, visually appealing websites. Proficient in responsive design, Web, Shopify And WordPress development and optimizing website performance for an exceptional user experience.
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="openTab('skills')">
+              Skills
+            </p>
+            <p class="tab-links" onclick="openTab('experience')">Experience</p>
+            <p class="tab-links" onclick="openTab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li>
+                <span>Web And UI/UX Design</span><br />HTML/HTML5, CSS/CSS3, Bootstrap, JavaScript, jQuery, JSON,Ajax
+              </li>
+              <li><span>Web Development</span><br />PHP And Mysql</li>
+              <li><span>CMS:</span><br />WordPress And Shopify Website Development</li>
+              <li><span>Tools:</span><br />Git, GitHub</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+                <span>OCT 2021 – 2022 APRIL</span><br />
+                NETSTOCK COMPANY IN PESHAWAR (Web Designer And WordPress developer)
+              </li>
+              <li>
+                <span>April 2022 - June 2022</span><br />ANT0NX COMPANY IN PESHAWAR (Web Designer And WordPress developer)
+              </li>
+              <li>
+                <span>JULY 2022 - MAY 2023</span><br />SIGNATURE SEO AND & SOLUTION IN PESHAWAR   (Web Designer And WordPress developer)
+              </li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li>
+                <span>2019-2023</span><br />THE UNIVERSITY OF AGRICULTURE PESHAWAR (Bachelor Of Computer Science)
+              </li>
+              <li>
+                <span>2016-2018</span><br />GLOBAL DEGREE COLLEGE PESHAWAR (FSc (Pre-Engineering))
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- ------------------about end----------------- -->
+
+ <!-- ------------------Services started----------------- -->
+
+      <section id="service">
+        <div class="section-title">
+          <h2 class="sub-title">My <span>Services</span></h2>
+          <h3 class="title">A brief of Offerting Services</h3>
+        </div>
+        <div class="services">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+             I am a seasoned web designer with a proven track record of crafting visually stunning and intuitive websites. My proficiency in HTML5, CSS3, and JavaScript allows me to create seamless user experiences. I look forward to the opportunity to contribute to your team's success.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2>PSD TO HTML</h2>
+            <p>I am writing to express my expertise in converting PSD designs into pixel-perfect, responsive HTML websites. With a proven track record of delivering high-quality results, I am well-versed in HTML5, CSS3, and JavaScript. I look forward to the opportunity to contribute to your team's success.</p>
+          </div>
+          <div>
+            <i class="fa-brands fa-figma"></i>
+            <h2>Figma to HTML</h2>
+            <p>
+              I am excited to share my expertise in translating Figma designs into meticulously crafted HTML code. With a strong command of HTML5, CSS3, and JavaScript, I ensure seamless and pixel-perfect conversions. I look forward to the opportunity to contribute to your team's success.
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-laptop-code"></i>
+            <h2>Web Development</h2>
+            <p>
+              I am a seasoned web developer with a proven track record of crafting visually stunning and intuitive websites. My proficiency in HTML5, CSS3, JavaScript, Bootstrap, PHP and MysQl allows me to create seamless user experiences and Backend development. I look forward to the opportunity to contribute to your team's success.
+             </p>
+          </div>
+          <div>
+            <i class="fa-brands fa-wordpress"></i>
+            <h2>WordPress Development</h2>
+            <p>
+              Experienced in WordPress development with a focus on page builders, I have a proven track record of crafting visually stunning and user-friendly websites. Proficient in page builder tools such as Elementor, Divi or WPBakery, alongside JavaScript, Bootstrap, PHP, and MySQL, I excel in frontend and backend development within the WordPress ecosystem. I look forward to the opportunity to leverage my WordPress page builder expertise to contribute to your team's success.
+            </p>
+          </div>
+          <div>
+            <i class="fa-brands fa-shopify"></i>
+            <h2>Shopify Development</h2>
+            <p>
+              Experienced in Shopify development, I specialize in creating robust and visually appealing e-commerce websites. With a deep understanding of Shopify's platform, I can design and customize online stores, optimize user experiences, and integrate essential features to drive sales and business growth. I'm excited about the chance to contribute to your Shopify project and help you achieve your e-commerce goals.
+            </p>
+          </div>
+          
+        </div>
+      </section>
+
+      <!-- Services section end -->
+
+      <!-- Portfolio section started -->
+
+      <section id="portfolio">
+        <div class="section-title">
+          <h2 class="sub-title">My <span>Portfolio</span></h2>
+          <h3 class="title">Awesome Works</h3>
+          <div class="project-list">
+            <div class="project">
+              <img src="assets/boom.JPG" alt="boom marketing"  width="50%" height="400px"/>
+              <div class="layer">
+                <h3>Real Estate Project</h3>
+                <p>
+                  Boom marketing is a renowned company with enormous experience refining and establishing real estate projects through innovative marketing solutions. Our R&D team has conducted thorough research in the last few years on advanced marketing strategies and bringing safe and secure investment opportunities.
+                </p>
+                <a href="https://boommarketing.pk/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            <div class="project">
+              <img src="assets/prof.JPG" alt="Griffin Tax image" width="50%" height="400px"/>
+              <div class="layer">
+                <h3>griffin Tax Professionals Business Project</h3>
+                <p>
+                  Griffin Tax Professionals has been providing a range of compliance & advisory services to support all aspects of business administration.
+                </p>
+                <a href="https://griffintaxprofessionals.com.au/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+              </div>
+            </div>
+            <div class="project">
+              <img src="assets/hyper.JPG" alt="hyper Gears image"  width="50%" height="400px"/>
+              <div class="layer">
+                <h3>HyperGears e-commerce project</h3>
+                <p>
+                  Hypergears is your one-stop destination for all things tech and gadgetry. We pride ourselves on offering an extensive range of cutting-edge products designed to elevate your digital lifestyle.
+                </p>
+                <a href="https://hypergears.com/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio End -->
+
+      <!-- Testimonial section -->
+      <section id="testimonial">
+        <div class="section-title">
+          <h2 class="sub-title">Testimonial</h2>
+          <h3 class="title">People What Are Saying</h3>
+          <div class="testimonial-list">
+            <div class="review">
+              <i class="fa-solid fa-quote-left"></i>
+              <p class="review-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                blanditiis suscipit sunt itaque nobis.
+              </p>
+              <div class="review-by">
+                <div class="img">
+                  <img
+                    src="assets/testimonials-img-1.jpg"
+                    alt="testimonials-img-1" />
+                </div>
+                <div class="info">
+                  <h3 class="name">John Doe</h3>
+                  <h5 class="resignation">Web Developer</h5>
+                </div>
+              </div>
+            </div>
+            <div class="review">
+              <i class="fa-solid fa-quote-left"></i>
+              <p class="review-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                blanditiis suscipit sunt itaque nobis.
+              </p>
+              <div class="review-by">
+                <div class="img">
+                  <img
+                    src="assets/testimonials-img-2.jpg"
+                    alt="testimonials-img-2" />
+                </div>
+                <div class="info">
+                  <h3 class="name">Natasha Malkova</h3>
+                  <h5 class="resignation">WordPress developer</h5>
+                </div>
+              </div>
+            </div>
+            <div class="review">
+              <i class="fa-solid fa-quote-left"></i>
+              <p class="review-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo
+                blanditiis suscipit sunt itaque nobis.
+              </p>
+              <div class="review-by">
+                <div class="img">
+                  <img
+                    src="assets/testimonials-img-3.jpg"
+                    alt="testimonials-img-3" />
+                </div>
+                <div class="info">
+                  <h3 class="name">Amy Koney</h3>
+                  <h5 class="resignation">Digital Marketer</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <!-- Contact section -->
+      <section id="contact">
+        <div class="section-title">
+          <h2 class="sub-title">Contact <span id="me">Me</span></h2>
+          <h3 class="title">Get in Touch</h3>
+        </div>
+        <div class="content">
+          <div class="contact-left">
+            <form action>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"></textarea>
+              <button type="submit" id="contact-btn">
+                Send Message <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </form>
+          </div>
+          <div class="vl"></div>
+          <div class="contact-right">
+            <div class="col address">
+              <i class="fa-solid fa-location-dot"></i>
+              <div class="info">
+                <h2 class="title">Address</h2>
+                <p>KPK Peshawar</p>
+              </div>
+            </div>
+            <div class="col phone">
+              <i class="fa-solid fa-phone"></i>
+              <div class="info">
+                <h2 class="title">Phone</h2>
+                <p>+92 3019002216</p>
+              </div>
+            </div>
+            <div class="col email">
+              <i class="fa-solid fa-envelope"></i>
+              <div class="info">
+                <h2 class="title">Email</h2>
+                <p>zahidullah0902000@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>
+            Copyright ©️ ZPortfolio | Made with
+            <i class="fa-solid fa-heart"></i> by
+            <a href="#">Zahid</a>
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+  </body>
+</html>
